@@ -14,11 +14,10 @@ export const htmlPage = (user: {
             <h1 class="title">Welcome ${user ? user["name"] : "to Split Access Page"}!</h1>
             <p>${user ? "Feature On" : "Feature Off"}</p>
             <form action="/toggle" method="post">
-                <input type="name" id="name" name="name" placeholder="Name">
+                <input type="name" name="name" placeholder="Name">
                 <input type="submit" name="submit" onclick="CheckUser()" value="Check">
             </form>
             ${ user ? `<p>${user["name"]} is an ${user["role"]}</p>` : "" }
-
         </div>
     </body>
     <script type="text/javascript">
