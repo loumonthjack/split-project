@@ -1,8 +1,8 @@
 Exploring Split IO Server Side SDK event tracking and feature toggles
 
 # Code Cota
-Add a feature to split feature toggle that enables/disables based on the age of the user
-The some users can see the feature, non users can not see the feature
+Add a feature to split feature toggle that enables/disables based on the age of the user.
+Some users can see the feature, non users can not see the feature
 
 Objective:
 If the user has age less than 18, the user can not see the feature 
